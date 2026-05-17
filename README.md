@@ -28,7 +28,7 @@ Biblion is a modern, browser-based ebook reader designed for PDF and ePub files.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Biblion.git
+   git clone https://github.com/jacksonfdam/Biblion.git
    cd Biblion
    ```
 
