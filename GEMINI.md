@@ -31,7 +31,7 @@ The project now includes a simple Node.js server for local development and hosti
 
 1.  **Installation:** Run `npm install` to install dependencies (Express).
 2.  **Run:** Run `npm start` to start the local server. The application will be available at `http://localhost:3000`.
-3.  **Vercel Deployment:** The project is configured to be deployed on Vercel as a Node.js application. Vercel will automatically run `npm start` to host the site.
+3.  **Vercel Deployment:** The project is configured with `vercel.json` to be deployed as a Node.js application. It uses the `@vercel/node` builder and routes all traffic to `index.js`, which exports the Express app for compatibility with Vercel's serverless environment.
 4.  **Tests:** Currently, no automated tests are specified. (TODO: Implement basic unit/integration tests).
 
 ## Development Conventions
